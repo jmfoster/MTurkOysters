@@ -1,0 +1,99 @@
+<!doctype html>
+<!-- 
+  The consent.html displays the text of your IRB-approved
+  consent form.  Even if you are not required to provide
+  a consent form, it is helpful to use this form to 
+  describe what people can do if an error comes up, etc...
+
+-->
+<html>
+    <head>
+        <title>Psychology Experiment - Informed Consent Form</title>
+        <link rel=stylesheet href="/static/css/bootstrap.min.css" type="text/css">
+        <link rel=stylesheet href="/static/css/style.css" type="text/css">
+        <script type="text/javascript">
+            function onexit() {
+              self.close(); // no harm, no foul here
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container-consent">
+            <div id="consent">
+                <h1>We need your consent to proceed</h1>
+                <hr>
+                <div class="legal well">
+<p><b>Why am I being invited to take part in a research study?</b></p>
+<p>You are invited to participate because you indicated interest by selecting a listing on the Amazon Mechanical Turk website.</p>
+<p><b>What should I know about a research study?</b></p>
+<p>
+*	Whether or not you take part is up to you.<br>
+*	You can choose not to take part.<br>
+*	You can agree to take part and later change your mind.<br>
+*	Your decision will not be held against you.</p>
+<p><b>Who can I talk to?</b></p>
+<p>If you have questions, concerns, or complaints, or think the research has hurt you, talk to Dr. Jones at 303-735-1351.</p>
+<p>This research has been reviewed and approved by an Institutional Review Board (“IRB”). You may talk to them at (303) 735-3702 or irbadmin@colorado.edu if:</p>
+<p>
+*	Your questions, concerns, or complaints are not being answered by the research team.<br>
+*	You cannot reach the research team.<br>
+*	You want to talk to someone besides the research team.<br>
+*	You have questions about your rights as a research subject.<br>
+*	You want to get information or provide input about this research.</p>
+<p><b>Why is this research being done?</b></p>
+<p>This research explores how people learn abstract, relational concepts. The goal is to understand the cognitive processes by which people learn new concepts. Participation in this study is entirely your choice.</p>
+<p><b>How long will the research last?</b></p>
+<p>We expect that you will be in this research study for 30 minutes or less.</p>
+<p><b>How many people will be studied?</b></p>
+<p>We expect about 500 people will be in this research study. </p>
+<b>What happens if I say yes, I want to be in this research?</b></p>
+<p>If you agree to take part in this study, you will be asked to perform a task on your computer. You will be shown stimuli and will be asked to learn the category it pertains to. On certain trials you will receive feedback about the correct answer and on others you will not. </p>
+<p>A maximum of 500 participants will be invited to participate in this research study. No individual will be invited to participate more than one time for this experiment. </p>
+<p><b>What happens if I do not want to be in this research?</b></p>
+<p>You can leave the research at any time and it will not be held against you. Payment will be issued only for completed experiments.</p>
+<p><b>What happens if I say yes, but I change my mind later?</b></p>
+<p>You can leave the research at any time it will not be held against you. Payment will be issued only for completed experiments.</p>
+<p><b>Will being in this study help me any way?</b></p>
+<p>We cannot promise any benefits to you or others from your taking part in this research. However, possible benefits include an improved understanding of methods used in cognitive psychology research. </p>
+<p><b>What happens to the information collected for the research?</b></p>
+<p>Efforts will be made to limit the use and disclosure of your personal information, including research study and medical records, to people who have a need to review this information. We cannot promise complete secrecy. Organizations that may inspect and copy your information include the IRB and other representatives of this organization.	</p>
+<p>We will make every effort to maintain the privacy of your data. Confidentiality will be ensured by using participant code numbers, rather than names, on all documents. </p>
+<p>All electronic data will be catalogued and stored on secure computers in the laboratories of the faculty advisor and on secure servers in the Department of Psychology and Neuroscience at the University of Colorado Boulder.  No identifying information will be obtained from the subjects in any of the experiments that would tie specific responses to a given individual. Sensitive information will not be collected as part of the proposed study</p>
+<p><b>Can I be removed from the research without my OK?</b></p>
+<p>If you do not follow the instructions of the study, you may be removed without your approval.</p>
+
+<p><b>Electronic Consent *</b></p>
+<p>Clicking on the "Agree" button below indicates that:
+<p> 
+* You have read the above information<br>
+* You voluntarily agree to participate<br>
+</p>
+<p>If you do not wish to participate in the research project, please decline participation by clicking on the "No thanks" button below.</p>
+
+
+                    <button type="button" class="btn btn-default btn-sm" onClick="window.print();">
+                    <span class="glyphicon glyphicon-print"></span> Print a copy of this
+                    </button>
+                </div>
+
+                <hr>
+                <h4>Do you understand and consent to these terms?</h4>
+                <br>
+
+                <center>
+                    <button type="button" class="btn btn-primary btn-lg" onClick="window.location='/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}'">
+                    <span class="glyphicon glyphicon-ok"></span> I agree 
+                    </button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-danger btn-lg" onClick="onexit()">
+                    <span class="glyphicon glyphicon-ban-circle"></span> No thanks, I do not want to do this HIT
+                    </button>
+                </center>
+
+            </div>
+        </div>
+    </body>
+</html>
+

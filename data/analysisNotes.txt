@@ -1,0 +1,52 @@
+# Status codes
+ALLOCATED = 1
+STARTED = 2
+COMPLETED = 3
+DEBRIEFED = 4
+CREDITED = 5
+QUITEARLY = 6
+BONUSED = 7
+
+if(mycondition==0) {	//high mean cat. is high variance
+			variances[A] = highVar;
+			variances[C] = lowVar;
+		}
+		else if(mycondition==1) {	//low mean cat. is high variance
+			variances[A] = lowVar;
+			variances[C] = highVar;
+		}
+		
+
+condition 0: A high variance [fewer ACvB]
+condition 1: A low variance [more ACvB]
+
+
+cond1:
+counterbal1: 1 ACvB
+counterbal1: 10 ACvB
+
+cond0:
+counterbal0: 0 ACvB
+counterbal0: 10 ACvB
+
+
+debug: 
+cond1: A==lowVar
+counterbalance0
+	ACvB: 10
+	
+version 3.0
+cond0: 
+0
+10
+7
+9
+10
+
+7
+0
+10
+9
+10
+
+
